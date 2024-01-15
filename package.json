@@ -1,6 +1,6 @@
 {
   "name": "tilt-hook",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "type": "module",
   "main": "build/useTilt.js",
   "keywords": ["react", "hook", "typescript", "tilt", "card", "3d"],
