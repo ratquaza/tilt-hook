@@ -14,8 +14,13 @@ export default function CardWrapper() {
     </div>)
 }
 ```
+# useTilt
+The default export, the `useTilt` function, takes 2-3 parameters:
+`useTilt(wrapper: RefObject, target: RefObjeect, options?: TiltOptions)`. 
 
-# Tilt Options
+Returns `setDistance` function, which can be used to easily set the distance, or z-depth, of an element.
+
+# TiltOptions
 `degree: number` - The maximum degree that a card can turn.
 
 `perspective: number` - The perspective used for the 3D effect.
