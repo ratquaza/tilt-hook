@@ -1,0 +1,12 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ES2015",
+    "module": "Node16",
+    "outDir": "build",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
